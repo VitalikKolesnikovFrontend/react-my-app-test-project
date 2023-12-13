@@ -1,0 +1,25 @@
+.menuItems {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--grayspace-layout-gray-10, #EBECEF);
+    border-bottom: 1px solid var(--grayspace-layout-gray-10, #EBECEF);
+    background: var(--grayspace-layout-gray-5, #F8F8FA);
+    span {
+        width: 125px;
+        color:  #737680;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 171.429% */
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.input__menuItems {
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+}
